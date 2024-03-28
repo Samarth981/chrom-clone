@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 #nav_bar{
-    width: 100%;
+    width: 100vw;
     /* height: 100%; */
     display: flex;
     background-color: #ffffff;
@@ -38,10 +38,14 @@
     width: 25%;
 }
 .logo_ineer{
-    width: 85%;
+    width: max-content;
     height: auto;
     display: flex;
     align-items: center;
+}
+.logo_ineer:hover{
+    cursor: pointer;
+    background-color: #F5F5F7;
 }
 #logo_image{
     width: 60px;
@@ -54,3 +58,58 @@
 }
 
 /* nav list */
+.list_outer{
+    width:auto;
+}
+.list_ineer{
+    width: max-content;
+    height: 85%;
+    display: flex;
+    align-items: center;
+}
+.list_ineer ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+.list_ineer ul li{
+    width: max-content;
+    padding: 0px 20px;
+    font-size: 23px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.list_ineer ul li a{
+    padding: 12px;
+   text-decoration: none;
+   color: black;   
+   opacity: 0.7;
+}
+.list_ineer ul li a:hover{
+    border-radius: 10px;
+    opacity: 1;
+    background-color: #F5F5F7;
+}
+
+/* loging */
+.Surearch{
+    margin-right: 10px;
+    width:80%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.Loging{
+    font-size: 20px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 3px 3px 6px rgba(220, 147, 147, 0.5);
+}
+.Loging:hover{
+    cursor: pointer;
+    color: #4091CB;
+}

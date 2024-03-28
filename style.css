@@ -64,8 +64,6 @@
     /* width: max-content; */
     height: 85%;
     display: flex;
-    overflow-x: auto;
-    white-space: nowrap;
     align-items: center;
 }
 .list_ineer ul{
@@ -75,7 +73,6 @@
 }
 .list_ineer ul li{
     /* width: max-content; */
-    height: 100%;
     padding: 0px 20px;
     font-size: 23px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -115,7 +112,7 @@
     cursor: pointer;
     color: #4091CB;
 }
-@media screen and (max-width: 1598px){
+@media screen and (max-width: 768px){
     .list_ineer ul li{
         font-size: 18px;
     }

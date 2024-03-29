@@ -4,120 +4,92 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style-type: none;
+    font-family: sans-serif;
+    transition: all linear;
 }
 #nav_bar{
     width: 100%;
-    height:10vh;
+    height: 10vh;
+    background: linear-gradient(50deg, rgb(200, 27, 253) 0%, rgb(117, 44, 244) 75.5%,rgb(44, 181, 244) 100%);
     display: flex;
-    background-color: #ffffff;
-    box-shadow: -2px -2px 18px 0px rgba(87, 87, 87, 0.5);
-    border-radius: 5px;
 }
-/* manu icone */
-.menu_outter{
-    width: 20%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    display: none;
-}
-.menu_ineer{
-    width: 85%;
-    height: 85%;
-    display: flex;
-    align-items: center;
-}
-.fa-bars {
-    font-size: 30px;
-    color: rgb(23, 22, 22);
-}
-
 /* logo */
-
 .logo_outter{
-    padding: 20px;
-    width: 20%;
-}
-.logo_ineer{
-    width: max-content;
-    height: auto;
+    width: 15%;
     display: flex;
+    justify-content: space-around;
     align-items: center;
-}
-.logo_ineer:hover{
     cursor: pointer;
-    background-color: #F5F5F7;
 }
 #logo_image{
-    width: 60px;
-    height: auto
+    width: fit-content;
+    height: 60px;
 }
 #text_nav{
-    font-size: 40px;
-    opacity: 0.65;
-    font-family: "Amiri Quran", serif;
+    width: 100%;
+    font-size: 35px;
+    color: bisque;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
-
-/* nav list */
-.list_outer{
-    width:60%
+/* list */
+.list_outter{
+    width: 60%;
 }
-.list_ineer{
-    /* width: max-content; */
-    height: 85%;
-    display: flex;
+.list_ul{
+    width: 900px;
+    height: 100%;
+    display: inline-flex;
     align-items: center;
+    justify-content: center;
 }
-.list_ineer ul{
-    display: flex;
-    justify-content: space-evenly;
-    list-style-type: none;
+.list_ul li{
+    font-size: 17px;
+    padding-right: 80px;
 }
-.list_ineer ul li{
-    /* width: max-content; */
-    padding: 0px 20px;
-    font-size: 23px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+#emojy{
+    transform:rotate(270deg);
+    display: inline-block; 
+    font-size: 15px;
+    color:#F7C363;
 }
-.list_ineer ul li a{
-    padding: 12px;
-   text-decoration: none;
-   color: black;   
-   opacity: 0.7;
+.list_ul li a{
+    color: white;
+    opacity: 0.7;
+    transition: all 0.3s ease 0s;
 }
-.list_ineer ul li a:hover{
-    border-radius: 10px;
+.list_ul li a:hover{
+    border-bottom: 1px solid rgb(255, 238, 238);
     opacity: 1;
-    background-color: #F5F5F7;
 }
-
 /* loging */
 .Surearch{
-    margin-right: 10px;
-    width: 20%;
-    display: flex;
-    justify-content: end;
-    align-items: center;
+    width: 30%;
+    height: 100%;
+    text-align: center;
 }
 .Loging{
-    font-size: 20px;
-    margin-right: 10px;
-    margin-bottom: 15px;
-    text-align: center;
-    width: 150px;
-    height: 50px;
+    cursor: pointer;
     border: none;
-    border-radius: 25px;
-    box-shadow: 3px 3px 6px rgba(220, 147, 147, 0.5);
+    margin-top: 18px;
+    width: 120px;
+    height: 40px;
+    letter-spacing: 0.1rem;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 6px 3px 4px 0px rgba(149, 24, 163, 0.5);
+    background-color: rgb(247, 195, 99);
+    transition: all 0.3s ease 0s;
 }
 .Loging:hover{
-    cursor: pointer;
-    color: #4091CB;
+    color: white;
 }
-@media screen and (max-width: 768px){
-    .list_ineer ul li{
-        font-size: 18px;
-    }
-    
+.menu_outter{
+    width: 3%;
+    text-align: center;
+    margin-top: 20px ;
+    font-size: 25px;
+}
+.menu_outter i:hover{
+    color: white;
 }

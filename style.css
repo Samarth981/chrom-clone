@@ -218,7 +218,7 @@
 }
 .main_img img{
     padding-top: 100px;
-    width: 300px;
+    width: 500px;
 }
 .set_button {
     font-size: 18px;
@@ -244,7 +244,12 @@
         font-size: 15px;
     }
 }
+@media(max-width:1196px){
+    .submit_buton_section{
+        padding: 8px 0px 0px 80px;
+    }
 
+}
 
 @media (max-width:883px){
     .text_header{

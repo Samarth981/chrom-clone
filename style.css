@@ -65,10 +65,6 @@
     font-size: 25px;
     position: absolute;
     color: #ffa600;
-    opacity: 0.6;
-}
-.material-symbols-outlined:hover{
-    opacity: 1;
 }
 .list_ul li a{
     color: white;

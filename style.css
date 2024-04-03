@@ -103,10 +103,15 @@
     margin-top: 20px ;
     font-size: 25px;
     display: none;
+    text-align: end;
+    
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 32px;
+    cursor: pointer;
 }
 .menu_outter i:hover{
     color: white;
-    font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 
@@ -294,17 +299,13 @@
         padding-right: 10px;
     }
 }
-@media (max-width: 919px) {
+@media (max-width: 933px) {
     .list_outter{
         display: none;
     }
     .menu_outter{
         display: block;
-        text-align: end;
         width: auto;
-        margin-right: 10px;
-        margin-left: 10px;
-        font-size: 36px;
     }
     .Surearch{
         width: 95%;

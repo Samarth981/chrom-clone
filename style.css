@@ -6,11 +6,10 @@
 /* library manu */
 #library_nav{
     background: linear-gradient(50deg, rgb(200, 27, 253) 0%, rgb(117, 44, 244) 75.5%,rgb(44, 181, 244) 100%);
+    padding: 0 20px;
     display: flex;
     align-items: center;
-    padding: 0 20px;
 }
-
 /* logo */
 .logo{
     width: 15%;
@@ -40,10 +39,10 @@
     height: 100%;
 }
 .list_ul{
+    list-style: none;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    list-style: none;
 }
 .list_ul li{
     font-size: 17px;
@@ -52,23 +51,24 @@
     color: white;
     text-decoration: none;
 }
-.list_ul li a, .material-symbols-outlined{
-    opacity: 0.7;
-}
 .material-symbols-outlined{
     position: absolute;
     color: #ffa600;
 }
+.list_ul li a, .material-symbols-outlined{
+    opacity: 0.7;
+}
 .list_ul li a:hover, .material-symbols-outlined:hover{
     opacity: 1;
 }
-
 /* loging */
 .Surearch{
     width: 30%;
     text-align: end;
 }
 .Loging{
+    box-shadow: 6px 3px 4px 0px rgba(149, 24, 163, 0.5);
+    background-color: rgb(247, 195, 99);
     cursor: pointer;
     border: none;
     width: 120px;
@@ -76,8 +76,6 @@
     letter-spacing: 0.1rem;
     font-size: 16px;
     border-radius: 20px;
-    box-shadow: 6px 3px 4px 0px rgba(149, 24, 163, 0.5);
-    background-color: rgb(247, 195, 99);
     transition: all 0.3s ease 0s;
 }
 .fa-solid, .fa-bars{
@@ -102,7 +100,7 @@
 
 /* main content */
 #mani_info{
-    height: 88vh;
+    height: 590px;
     display:flex;
 }
 .content{
@@ -165,9 +163,9 @@
 }
 /* skill option */
 .skill_option {
-    width: 493px;
+    width: 100%;
     border: none;
-    padding: 10px;
+    padding: 10px 0 0 15px;
     margin-top: 0.5rem;
     border-radius: 20px;
     background-color: rgba(245, 245, 245, 0.514);
@@ -178,7 +176,7 @@
 }
 .skill_option button{
     width: fit-content;
-    height: 25px;
+    height: 20px;
     border: none;
     border-radius: 10px;
     background-color: #dcdcdc ;

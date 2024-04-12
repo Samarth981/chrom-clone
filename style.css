@@ -175,7 +175,7 @@
     align-items: center;
     flex-wrap: wrap;
     flex: 2;
-    gap: 0.5rem;
+    gap: 0.8rem;
 }
 .skill_option button{
     width: fit-content;

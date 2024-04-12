@@ -312,7 +312,7 @@
     border-radius: 10px;
     padding: 0.25px;
     text-decoration: none;
-    background-color: rgb(211, 210, 210);
+    background-color: rgb(236, 231, 231);
 }
 .fa-layer-group{
     font-size: 30px;
@@ -334,6 +334,6 @@
     justify-content: center;
     width: 80px;
     height: 40px;
-    background-color: #FECB61;
+    background-color: #FFEEE7;
     border-radius: 5px;
 }

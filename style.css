@@ -221,10 +221,10 @@
 .submit{
     width: 120px;
     height: 40px;
-    border-radius: 10%;
+    border-radius: 10px;
     border: none;
     font-size: 15px;
-    background-color: #000022;
+    background-color: #6E00BE;
     color: white;
     cursor: pointer;
     box-shadow: 6px 3px 4px 0px rgba(149, 24, 163, 0.5);
@@ -233,10 +233,9 @@
 /* main image */
 .main_img{
     width: 40%;
-    text-align: center;
 }
 .main_img img{
-    width: 90%;
+    width: 100%;
 }
 .set_button {
     font-size: 18px;
@@ -303,6 +302,7 @@
     display: grid;
     gap: 1rem;
     grid-template-columns: repeat(4,1fr);
+    padding-top: 15px;
 }
 .flex-row{
     width: auto;
@@ -310,30 +310,46 @@
     display: flex;
     gap: 0.5rem;
     border-radius: 10px;
-    padding: 0.25px;
     text-decoration: none;
-    background-color: rgb(236, 231, 231);
+    background-color: rgb(243 240 240);
 }
 .fa-layer-group{
     font-size: 30px;
 }
 .font-size{
     font-size: 30px;
+    color: #652407;
 }
 .flex {
     margin-top: 12px;
     display: flex;
     width: 30%;
     height: 90%;
-    justify-content: center;
     align-items: center;
 }
 .font-size{
+    padding: 0.25rem;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 80px;
     height: 40px;
     background-color: #FFEEE7;
-    border-radius: 5px;
+    border-radius: 10px;
+}
+.field{
+    position: relative;
+    top: 20px;
+    font-size: 18px;
+    line-height: 1rem;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 130px;
+    transition: 0.3s;
+    color: #000000;
+}
+@media (max-width : 1390px){
+    .field{
+        overflow: hidden;
+    }
 }

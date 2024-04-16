@@ -7,7 +7,7 @@
 }
 /* library manu */
 #library_nav{
-    background: linear-gradient(50deg, rgb(200, 27, 253) 0%, rgb(117, 44, 244) 75.5%,rgb(44, 181, 244) 100%);
+    background: linear-gradient(50deg, #8200a3 0%, #4b00d3 75.5%, #00b5e4 100%);
     padding: 0 20px;
     display: flex;
     align-items: center;
@@ -23,19 +23,21 @@
     height: 80px;
     filter: brightness(6) invert(1);
 }
+
+/* text in Navbar */
 #text_nav{
     margin-top: 15px;
     font-size: 30px;
     font-weight: 700;
     font-family:  "Lobster Two", sans-serif;
-    background:linear-gradient(to right, #000000 0%, #EB0000 80%);
+    background: linear-gradient(to right, #ffffff 0%, #ff0000 80%);
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
     opacity: 0.7;
 }
 
-/* list */
+/* list Item in Navbar */
 .list_outter{
     width: 60%;
     height: 100%;
@@ -49,8 +51,9 @@
 .list_ul li{
     font-size: 17px;
 }
+
 .list_ul li a{
-    color: white;
+    color: #ffffff;
     text-decoration: none;
 }
 .material-symbols-outlined{
@@ -63,14 +66,15 @@
 .list_ul li a:hover, .material-symbols-outlined:hover{
     opacity: 1;
 }
-/* loging */
+
+/* Search Bar and Button */
 .Surearch{
     width: 30%;
     text-align: end;
 }
 .Loging{
     box-shadow: 6px 3px 4px 0px rgba(149, 24, 163, 0.5);
-    background-color: rgb(247, 195, 99);
+    background-color: #ffde03;
     cursor: pointer;
     border: none;
     width: 120px;
@@ -79,6 +83,7 @@
     font-size: 16px;
     border-radius: 20px;
     transition: all 0.3s ease 0s;
+    color: #000000;
 }
 .fa-solid, .fa-bars{
     margin: 0 0 20px 10px;
@@ -96,7 +101,7 @@
     cursor: pointer;
 }
 .Loging:hover, .list_icon i:hover{
-    color: inherit;
+    color: #000000;
 }
 
 
@@ -107,7 +112,7 @@
 }
 .content{
     width: 60%;
-    background-color: rgb(224, 235, 255);
+    background-color: #f0f5ff;
     border-radius: 0% 100% 70% 30% / 100% 0% 100% 0%;
 }
 .text{
@@ -130,7 +135,7 @@
     opacity: 0.7;
     font-family: "M PLUS 1";
     text-align: center;
-    color: grey;
+    color: #808080;
 }
 .highlights{
     color: #6F42C1;
@@ -353,3 +358,4 @@
         overflow: hidden;
     }
 }
+

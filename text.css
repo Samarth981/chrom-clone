@@ -1,0 +1,124 @@
+/* .companies-section {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.section-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.companies-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.company-card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.company-logo {
+    max-width: 100px;
+    margin: 0 auto 15px;
+    display: block;
+}
+
+.company-name {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.company-description {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.explore-more-btn {
+    display: inline-block;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.explore-more-btn:hover {
+    background-color: #0056b3;
+} */
+
+
+
+
+/* Add this CSS code at the end of your existing stylesheet
+
+/* Company Cards */
+.company-card {
+    background-color: #fff; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease; 
+    width: 200px;
+    margin-bottom: 20px; 
+}
+
+.company-card:hover {
+    transform: translateY(-5px); 
+}
+
+.company-logo {
+    max-width: 100%; 
+    height: auto; 
+    margin-bottom: 15px;
+}
+
+.company-name {
+    font-size: 18px; 
+    font-weight: 600;
+    color: #333; 
+    margin-bottom: 10px;
+}
+
+.company-description {
+    font-size: 14px; 
+    color: #666; 
+    line-height: 1.4; 
+    margin-bottom: 15px; 
+}
+
+
+.btn {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #8200a3; /* Dark purple */
+    color: #ffffff;
+    font-size: 14px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #4b00d3; /* Darker purple on hover */
+}

@@ -1,9 +1,15 @@
 *{
     margin: 0px;
     box-sizing: border-box;
-    font-family: sans-serif;
     scrollbar-color:#6e00be #f6f6f6; 
     scrollbar-width: thin;
+}
+body{
+    background-color: #fff;
+    font-family:  "Google Sans", arial, sans-serif;
+}
+section{
+    display: block;
 }
 /* library manu */
 #library_nav{
@@ -29,7 +35,6 @@
     margin-top: 15px;
     font-size: 30px;
     font-weight: 700;
-    font-family:  "Lobster Two", sans-serif;
     background: linear-gradient(to right, #ffffff 0%, #ff0000 80%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -133,7 +138,6 @@
     line-height: 28px;
     letter-spacing: 0.216px;
     opacity: 0.7;
-    font-family: "M PLUS 1";
     text-align: center;
     color: #808080;
 }
@@ -274,12 +278,13 @@
     /* background-color: whitesmoke; */
 }
 .flex-col{
+    margin-top: 20px;
+    padding-top: 20px;
     display: flex;
     flex-direction: column;
     gap: 1rem;
 }
-.text_cate{
-    padding-top: 5px;
+.heding{
     font-weight: 700;
     font-size: 1.5rem;
     color: blue;
@@ -288,26 +293,27 @@
     cursor: pointer;
     letter-spacing: 0.1rem;
 }
+.text_cate{
+    padding-top: 5px;
+    text-align: center;
+}
 .fa-solid{
     color: #000000;
     padding-right: 10px;
     transition: all 0.3s ease-in-out;
 }
-.fa-layer-group{
+.setHover{
     height: 24px;
 }
-.fa-layer-group:hover{
+.setHover:hover{
     scale: 1.3;
-}
-.no-scrollbar{
-    scrollbar-width: none;
-    overflow-x: auto;
 }
 .grid{
     display: grid;
     gap: 1rem;
     grid-template-columns: repeat(4,1fr);
     padding-top: 15px;
+    height: fit-content;
 }
 .flex-row{
     width: auto;
@@ -317,6 +323,11 @@
     border-radius: 10px;
     text-decoration: none;
     background-color: rgb(243 240 240);
+    transition: all 0.3s linear;
+}
+.flex-row:hover{
+    box-shadow: 2px 3px 4px #797979;
+    scale: (1,1);
 }
 .fa-layer-group{
     font-size: 30px;
@@ -359,3 +370,33 @@
     }
 }
 
+/* companies card section */
+#companies{
+    margin-top: 10px;
+    padding-top: 50px;
+    background-color: #F0F5FF;
+}
+.comp_text{
+    text-align: center;
+}
+.comp_more{
+    display: block;
+    align-items: center;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.span_text{
+    font-size: 1rem;
+    color: #1967D2;
+    line-height: 1.5rem;
+    font-weight: 500;
+}
+.material-symbols-outlined{
+    font-size: 0.877rem;
+    position: relative;
+    top: 2px;
+    color: #1967D2;
+}
+.fa-building{
+    font-size: 30px;
+}

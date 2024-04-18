@@ -244,6 +244,8 @@ section{
     width: 40%;
 }
 .main_img img{
+    position: relative;
+    top: -50px;
     width: 100%;
 }
 .set_button {
@@ -399,4 +401,92 @@ section{
 }
 .fa-building{
     font-size: 30px;
+}
+
+/* build card */
+.card_box{
+    height: 65vw;
+    background-color: #F0F5FF;
+}
+.card_grid{
+    padding : 50px;
+    margin-right: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 2rem;
+}
+.card_op{
+    width: 341px;
+    height: 385px;
+    background: #ffffff;
+    box-shadow : 10px 10px 20px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card_inner{
+    margin-top: 20px;
+    width: 301px;
+    height: 100%;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.card_op_img{
+    width: 100%;
+    height: 158px;
+    flex-shrink: 0;
+}
+.card_heading{
+    width: 100%;
+    margin-top: 10px;
+    letter-spacing: -1px; /* Adjust the value as needed */
+}
+.heading_text{   
+    font-size: 24px;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+.card_line{
+    width: 90px; 
+    height: 0px;
+    margin-top: 2px; 
+    background: #D9D9D9; 
+    border: 1px rgb(214, 214, 214) solid;
+}
+.card_texts{
+    width: 100%;
+    height: fit-content;
+    line-height: 1.1rem;
+    color: rgba(43, 43, 43, 0.7);
+    font-size: 12px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    margin-top: 15px;
+}
+.card_btn{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn_text{
+    padding: 5px 31px;
+    width: 100%;
+    height: 100%;
+    color: black;
+    border-radius: 25px;
+    border: none;
+    overflow: hidden;
+    background: #e5f4ff;
+}
+#myVideo::-webkit-media-controls {
+    display: none !important;
+}
+
+#myVideo:hover::-webkit-media-controls {
+    display: initial !important;
 }

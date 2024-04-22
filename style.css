@@ -8,12 +8,10 @@ body{
     background-color: #fff;
     font-family:  "Google Sans", arial, sans-serif;
 }
-section{
-    display: block;
-}
+
 /* library manu */
 #library_nav{
-    background: linear-gradient(50deg, #8200a3 0%, #4b00d3 75.5%, #00b5e4 100%);
+    background: linear-gradient(50deg, #6366F1 10%, #0EA5E9 30%, #10B981 98%);
     padding: 0 20px;
     display: flex;
     align-items: center;
@@ -122,7 +120,7 @@ section{
 }
 .text{
     font-weight: 800;
-    font-size: 25px;
+    font-size: 2em;
     letter-spacing: 1.1px;
     color: #333333;
     text-align: center;
@@ -242,11 +240,15 @@ section{
 /* main image */
 .main_img{
     width: 40%;
+    position: relative;
 }
 .main_img img{
-    position: relative;
-    top: -50px;
-    width: 100%;
+    position: absolute; /* Change this from relative to absolute */
+    top: 50%; /* This will vertically center the image */
+    left: 50%; /* This will horizontally center the image */
+    transform: translate(-50%, -50%); /* This will adjust the image to be centered */
+    max-width: 100%;
+    height: auto;
 }
 .set_button {
     font-size: 18px;
@@ -280,7 +282,7 @@ section{
     /* background-color: whitesmoke; */
 }
 .flex-col{
-    margin-top: 20px;
+    margin-top: -15px;
     padding-top: 20px;
     display: flex;
     flex-direction: column;
@@ -410,7 +412,7 @@ section{
 }
 .card_grid{
     padding : 50px;
-    margin-right: 20px;
+    margin: 0px 5%;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-template-rows: repeat(2,1fr);
@@ -450,11 +452,12 @@ section{
     word-wrap: break-word;
 }
 .card_line{
+    margin-left: 4px;
     width: 90px; 
     height: 0px;
     margin-top: 2px; 
     background: #D9D9D9; 
-    border: 1px rgb(214, 214, 214) solid;
+    border: 0.8px rgb(214, 214, 214) solid;
 }
 .card_texts{
     width: 100%;

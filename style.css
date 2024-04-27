@@ -577,12 +577,13 @@ body{
     z-index: -1;
 }
 .working-process::after {
+    width: calc(100% - 120px);
     position: absolute;
     left: 60px;
     width: 90%;
     height: 20px;
     content: "";
-    background: #f2e6fa;
+    background: #6E00BE;
     z-index: -1;
 }
 

@@ -570,16 +570,16 @@ body{
     width: 50%;
 }
 
-.fa-star{
+.fa-truck-fast{
     width: 100%;
-    animation: fa-star 10s linear infinite; /* Single animation for all icons */
+    animation: fa-truck-fast 10s linear infinite; /* Single animation for all icons */
 }
-.fa-location-dot{
+.fa-car-side{
     width: 100%;
-    animation: fa-location-dot 10s linear infinite;
+    animation: fa-car-side 10s linear infinite;
     animation-delay: 7s;
 }
-@keyframes fa-star {
+@keyframes fa-truck-fast {
     0% {
       transform: translateX(0%); 
     }
@@ -590,7 +590,7 @@ body{
       transform: translateX(100%); 
     }
   }
-  @keyframes fa-location-dot {
+  @keyframes fa-car-side {
     0% {
       transform: translateX(0%); 
     }

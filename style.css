@@ -703,3 +703,9 @@ body{
     -ms-transition:all 0.3s ease;
     -o-transition:all 0.3s ease;
 }
+
+/* resources */
+
+.fa-address-book{
+    font-size: 25px;
+}
